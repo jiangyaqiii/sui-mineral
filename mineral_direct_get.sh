@@ -1,3 +1,5 @@
+mkdir mineral
+cd mineral
 wget https://github.com/ronanyeah/mineral-app/releases/download/v1/linux.zip
 unzip linux.zip
 chmod +x mineral-linux
