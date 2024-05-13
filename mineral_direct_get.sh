@@ -1,9 +1,10 @@
+sudo apt update
+sudo apt install screen -y
+sudo apt install unzip -y
 mkdir mineral
 cd mineral
 wget https://github.com/ronanyeah/mineral-app/releases/download/v1/linux.zip
 unzip linux.zip
-sudo apt update
-sudo apt install screen
 screen -S mineral
 chmod +x mineral-linux
 read -p "请输入你的sui钱包密钥: " key_screte
